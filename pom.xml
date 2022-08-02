@@ -21,7 +21,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>30.1-jre</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -31,13 +35,18 @@
 		<dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-security</artifactId>
+
  
 </dependency>
+<<<<<<< HEAD
 <dependency>
     <groupId>com.google.guava</groupId>
     <artifactId>guava</artifactId>
     <version>31.1-jre</version>
 </dependency>
+=======
+
+>>>>>>> f9e649d14d216e1456a56a8f86155a91c10e13fe
 	</dependencies>
 
 	<build>
